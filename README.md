@@ -82,18 +82,18 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
+![Alt text](img/image6.png)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
+![Alt text](img/image7.png)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![Alt text](img/image8.png)
 
 cat < newfile 
 ```
@@ -107,40 +107,42 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
+![Alt text](img/image9.png)
 
 
 grep hello newfile 
 ## OUTPUT
-
+![Alt text](img/image10.png)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-
+![Alt text](img/image11.png)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
+![Alt text](img/image12.png)
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
+![Alt text](img/image13.png)
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
-
-
+![Alt text](img/image14.png)
+![Alt text](img/image15.png)
+![Alt text](img/image16.png)
+![Alt text](img/image17.png)
 
 grep -w -n world newfile   
 ## OUTPUT
-
+![Alt text](img/image18.png)
 
 cat < newfile 
 ```
@@ -161,57 +163,58 @@ Unix is predecessor
 Linux is best in this World
 ^d
  ```
+
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
+![Alt text](img/image20.png)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
+![Alt text](img/image21.png)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
+![Alt text](img/image22.png)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
+![Alt text](img/image23.png)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
+![Alt text](img/image24.png)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
+![Alt text](img/image25.png)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
+![Alt text](img/image26.png)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
+![Alt text](img/image27.png)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
+![Alt text](img/image28.png)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
+![Alt text](img/image29.png)
 
 egrep l{2} newfile
 ## OUTPUT
-
+![Alt text](img/image30.png)
 
 
 egrep 's{1,2}' newfile
