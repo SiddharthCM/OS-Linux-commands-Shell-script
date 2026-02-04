@@ -42,24 +42,24 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
-
+![Alt text](img/image1.png)
 
 cat < file2
 ## OUTPUT
-
+![Alt text](<img/image 2.png>)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+![Alt text](img/image3.png)
+
 comm file1 file2
  ## OUTPUT
-
+![Alt text](img/image4.png)
  
 diff file1 file2
 ## OUTPUT
-
+![Alt text](img/image5.png)
 
 #Filters
 
