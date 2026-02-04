@@ -219,7 +219,7 @@ egrep l{2} newfile
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
+![Alt text](img/image31.png)
 
 cat > file23
 ```
@@ -237,48 +237,48 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-
+![Alt text](img/image32.png)
 
 
 sed -n -e '$p' file23
 ## OUTPUT
-
+![Alt text](img/image33.png)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-
+![Alt text](img/image34.png)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-
+![Alt text](img/image35.png)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-
+![Alt text](img/image36.png)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-
+![Alt text](img/image37.png)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-
+![Alt text](img/image38.png)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
+![Alt text](img/image39.png)
 
 
 seq 10 
 ## OUTPUT
-
+![Alt text](img/image40.png)
 
 
 seq 10 | sed -n '4,6p'
