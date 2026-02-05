@@ -283,34 +283,34 @@ seq 10
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-
+![Alt text](img/image41.png)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-
+![Alt text](img/image42.png)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-
+![Alt text](img/image43.png)
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-
+![Alt text](img/image44.png)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-
+![Alt text](img/image45.png)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
+![Alt text](img/image46.png)
 
 
 sed -n '2,4{s/$/*/;p}' file23
-
+![Alt text](img/image47.png)
 
 #Sorting File content
 cat > file21
@@ -336,13 +336,14 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![Alt text](img/image48.png)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![Alt text](img/image49.png)
 
 cat < urllist.txt
 ```
@@ -359,12 +360,12 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
+![Alt text](img/image50.png)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
+![Alt text](img/image51.png)
 
 
 #Backup commands
